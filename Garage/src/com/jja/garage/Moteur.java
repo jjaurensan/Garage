@@ -6,4 +6,6 @@ public abstract class Moteur {
 	private String cylindre;
 	private Double prix;
 	
+	public Moteur(String cylindre,Double prix) {}
+	
 }

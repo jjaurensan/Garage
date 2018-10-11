@@ -11,7 +11,9 @@ public abstract class Vehicule {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void addOption(Option opt) {}
+	public void addOption(Option opt) {
+	}
 	
-	
+	public void setMoteur(Moteur moteur) {
+	}
 }

@@ -2,8 +2,8 @@ package com.jja.garage;
 
 public class MoteurEssence extends Moteur {
 
-	public MoteurEssence() {
-		// TODO Auto-generated constructor stub
+	public MoteurEssence(String cylindre, Double prix) {
+		super(cylindre, prix);
 	}
 
 }

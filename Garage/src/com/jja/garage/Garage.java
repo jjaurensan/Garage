@@ -6,7 +6,7 @@ public class Garage {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void add() {
+	public void addVoiture(Vehicule vehicule) {
 	}
 	
 }
