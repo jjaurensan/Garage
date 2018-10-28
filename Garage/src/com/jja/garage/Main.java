@@ -2,10 +2,10 @@ package com.jja.garage;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		Garage garage = new Garage();   
-	   	 System.out.println(garage);
-	   	 
+		System.out.println(garage);
+	   
 	   	 Vehicule lag1 = new Lagouna();
 	   	 lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256d));
 	   	 lag1.addOption(new GPS());
@@ -45,7 +45,8 @@ public class Main {
 	   	 d4_2.addOption(new GPS());
 	   	 d4_2.addOption(new VitreElectrique());
 	   	 garage.addVoiture(d4_2); 
-
+	    
+	   
 	}
 
 }
